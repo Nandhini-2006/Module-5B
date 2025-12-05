@@ -12,8 +12,18 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 
 ## 🧾 Program
 
-Add code here
+~~~
+import numpy as np
+arr = np.array(eval(input()))
+a=arr.reshape(4,3)
+column_sums=sum(a[:,1])
+print(a)
+print(column_sums)
+~~~
 
 ## Output
 
+<img width="1095" height="494" alt="image" src="https://github.com/user-attachments/assets/5576ccae-0078-4394-a849-e4235ddda639" />
+
 ## Result
+Thus the python program to find the sum of Second column in a given numpy array is executed successfully.
